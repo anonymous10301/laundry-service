@@ -1,5 +1,3 @@
-import { ɵangular_packages_common_http_http_b } from "@angular/common/http"
-
 export class UserSchedule {
     Id:number
     FullName:string
@@ -11,5 +9,8 @@ export class UserSchedule {
     PickupDay:string
     PickupTimeSlot:string
     PackageId:number
-    Package?:ɵangular_packages_common_http_http_b
+    Package?:Package
+    StatusId:number
+    Status?:LaundryStatus
+    ExpectedDeliveryDate?:DateTime
 }
